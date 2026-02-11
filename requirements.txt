@@ -1,0 +1,22 @@
+# Core dashboard & UI
+streamlit        # 2025 recommendation – stable & feature-rich
+streamlit-autorefresh
+# Data handling
+pandas
+numpy
+
+# Windows Event Log reading
+pywin32             # required for win32evtlog
+python-evtx        # alternative .evtx file parsing (optional but useful)
+
+# Network packet capture & parsing
+scapy            # main library for live/offline packet capture
+
+# Optional / nice-to-have
+python-dateutil     # better timestamp handling
+pytz                       # timezone support if needed later
+plotly
+# Only if you add any of these features later:
+# sqlalchemy       # for persistent SQLite storage
+# plotly           # for better charts instead of st.bar_chart
+# matplotlib       # fallback plotting
